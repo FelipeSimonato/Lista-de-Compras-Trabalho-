@@ -1,0 +1,73 @@
+    html {
+        height: 100%;
+    }
+
+    body {
+        min-height: 100%;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-color: rgb(129, 130, 129);
+        padding: 5px 20px;
+    }
+    #paginas {
+        width: 200px;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        border: none;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover {
+        background: #B1B1B1;
+        color: #FFF;
+        font-weight: bold;
+        border-color: #B1B1B1;
+    }
+    
+
+    #divBusca {
+        background-color:#2F4F4F;
+        border:solid 1px;
+        border-radius:15px;
+        width:300px;
+    }
+    
+    #txtBusca {
+        float:left;
+        background-color:transparent;
+        padding-left:5px;
+        font-style:italic;
+        font-size:18px;
+        border:none;
+        height:32px;
+        width:260px;
+    }
+
+    #buscar {
+        border-radius:15px;
+        border:none;
+        height:32px;
+        background-color: #2F4F4F;
+        box-shadow: none;
+    }
+
+    #img_Buscar {
+        display: flex;
+    }
+
+    .texto_De_Apresentacao {
+        width: 40%;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        text-align: justify;
+    }
