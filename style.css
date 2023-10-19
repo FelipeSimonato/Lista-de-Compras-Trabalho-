@@ -4,13 +4,15 @@
 
     body {
         min-height: 100%;
+        background-color: #9E7540;
+        margin: 0%;
     }
     header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-end;
-        background-color: rgb(129, 130, 129);
+        background-color: #85603F;
         padding: 5px 20px;
     }
     #paginas {
@@ -65,9 +67,13 @@
     }
 
     .texto_De_Apresentacao {
-        width: 40%;
+        width: 50%;
         display: flex;
         justify-content: left;
         flex-direction: column;
         text-align: justify;
+    }
+
+    footer {
+        background-color: #E3D18A;
     }
