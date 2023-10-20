@@ -1,79 +1,140 @@
-    html {
-        height: 100%;
-    }
+html {
+    height: 100%;
+}
 
-    body {
-        min-height: 100%;
-        background-color: #9E7540;
-        margin: 0%;
-    }
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-end;
-        background-color: #85603F;
-        padding: 5px 20px;
-    }
-    #paginas {
-        width: 200px;
-        flex-direction: row;
-        display: flex;
-        justify-content: space-between;
-        border: none;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
-    a:link {
-        text-decoration: none;
-        color: black;
-    }
-    
-    a:hover {
-        background: #B1B1B1;
-        color: #FFF;
-        font-weight: bold;
-        border-color: #B1B1B1;
-    }
-    
+main {
+    flex: 1;
+    overflow: auto;
+    margin: 0; 
+    padding: 0;
+}
 
-    #divBusca {
-        background-color:#2F4F4F;
-        border:solid 1px;
-        border-radius:15px;
-        width:300px;
-    }
-    
-    #txtBusca {
-        float:left;
-        background-color:transparent;
-        padding-left:5px;
-        font-style:italic;
-        font-size:18px;
-        border:none;
-        height:32px;
-        width:260px;
-    }
+.container {
+    position: relative;
+}
 
-    #buscar {
-        border-radius:15px;
-        border:none;
-        height:32px;
-        background-color: #2F4F4F;
-        box-shadow: none;
-    }
+.background-image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
 
-    #img_Buscar {
-        display: flex;
-    }
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
-    .texto_De_Apresentacao {
-        width: 50%;
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-        text-align: justify;
-    }
+.text-columns {
+    color: whitesmoke;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
-    footer {
-        background-color: #E3D18A;
-    }
+.column-left {
+    float: right; /* Flutuar a primeira coluna à esquerda */
+    width: 95%; /* 48% para deixar espaço entre as colunas */
+    padding: 32px;
+    text-align: justify;
+}
+
+.column-right {
+    float: left; /* Flutuar a segunda coluna à direita */
+    width: 30%; /* 48% para deixar espaço entre as colunas */
+    padding: 0px;
+    text-align: justify;
+}
+
+clear {
+    clear: both;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #D2E0FB;
+    padding: 5px 20px;
+}
+
+#paginas {
+    width: 200px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background: #B1B1B1;
+    color: #FFF;
+    font-weight: bold;
+    border-color: #B1B1B1;
+}
+
+#divBusca {
+    background-color: #2F4F4F;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+}
+
+#buscar {
+    border-radius: 15px;
+    border: none;
+    height: 32px;
+    background-color: #2F4F4F;
+    box-shadow: none;
+}
+
+#img_Buscar {
+    display: flex;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #D7E5CA;
+    text-align: center;
+    padding: 10px;
+}
