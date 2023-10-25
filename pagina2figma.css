@@ -1,5 +1,4 @@
-< !DOCTYPE html>
-< html lang="en">
+
 < head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,15 +46,4 @@
         }
     </style>
 </head>
-<body>
-    <h1>Adicione seu Produto:</h1>
-    <label for="Produto">Produto:</label>
-    <input type="text" id="Produto" name="Produto">
 
-    <label for="Quantidade">Quantidade:</label>
-    <input type="text" id="Quantidade" name="Quantidade">
-
-    <button class="Voltar">Voltar para a página anterior</button>
-    <button class="Avançar">Avançar →</button>
-</body>
-</html>
